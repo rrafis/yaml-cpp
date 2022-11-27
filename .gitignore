@@ -1,3 +1,20 @@
 build/
 /tags
 /bazel-*
+
+# Custom
+**/Intermediate/
+**/Binaries
+
+# Xcode clutter
+*.build
+*.xcodeproj
+
+# Visual Studio clutter
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Makefiles
+Makefile
+*.make
